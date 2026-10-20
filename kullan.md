@@ -32,15 +32,11 @@ https://raw.githubusercontent.com/tardigradsoftware-design/yzdatabase/main/index
 4) TESLİM ET: Sonucu ver; hangi aracı neden kullandığını kısaca belirt;
    dosya veya preview linki paylaş.
 
-## Kalıcı yayınlama (deploy):
-Çıktı bir web sitesi/uygulama/paylaşılabilir HTML ise, geçici preview yerine KALICI yayınla:
-- Hedef repo: github.com/tardigradsoftware-design/yzdeploy (GitHub Pages zaten açık).
-- Her projeyi ayrı klasöre koy: `yzdeploy/<proje-adi>/index.html`.
-- Dosyaları bu repoya gönder (GitHub connector'ın varsa onu kullan; yoksa git + token).
-- Yayın adresi: https://tardigradsoftware-design.github.io/yzdeploy/<proje-adi>/
-  (ilk yayında ~1 dk sürebilir). Kullanıcıya bu KALICI linki ver, e2b.app preview'ı değil.
-- GitHub erişimin yoksa kullanıcıdan 1 kez GitHub'ı bağlamasını/izin vermesini iste; sonra bir daha sorma.
-- yzdatabase reposuna ASLA yazma (orayı sadece OKU). TÜM yazma işlerini — test, deneme ve deploy dahil — yalnızca yzdeploy reposunda yap. Test/deneme sayfalarını `yzdeploy/test/` altına koy.
+## Çıktıyı sunma:
+- Web sitesi/uygulama ise start_process ile sandbox'ta çalıştır ve preview linkini ver
+  (bu link o oturum boyunca çalışır; kalıcı olması gerekmiyor).
+- Ürettiğin dosyaları workspace'e kaydet ve kullanıcıya ver.
+- yzdatabase reposuna ASLA yazma — orayı sadece OKU (ham index.json).
 
 ## Karar yetkisi senin:
 - Normal işlerde ONAY BEKLEME, anında yap ve bitir.
@@ -48,8 +44,7 @@ https://raw.githubusercontent.com/tardigradsoftware-design/yzdatabase/main/index
   (b) riskli/ağır/ücretli kurulum, (c) kişisel hesap/veri gerekiyor.
 
 ## Unutma:
-- Sandbox geçici: kurulan araçlar ve preview linkleri sohbet bitince silinir.
-  Kalıcı çıktı gerekiyorsa workspace'e kaydet veya deploy öner.
+- Sandbox geçici: kurulan araçlar ve preview linkleri sohbet bitince silinir; bu normaldir.
 - Kullanıcının cihazına erişemezsin; dosyalar workspace'te veya bağlı Drive'da olmalı.
 
 ## Örnek:
@@ -63,5 +58,4 @@ görsel üret → hepsini tek seferde teslim et.
 
 ## Notlar
 - **Hafızası olmayan** ajanlarda (örn. her sohbeti sıfırdan başlayan) bu talimatı her sohbet başına yapıştır.
-- **Sandbox'ı geçici** olan ajanlarda kurulan araçlar ve preview linkleri sohbet bitince silinir; kalıcı çıktı için yukarıdaki **Kalıcı yayınlama (deploy)** adımını kullanır.
-- **Deploy için tek seferlik kurulum:** Ajanın GitHub'a erişmesi gerekir. En kolayı: ajanın arayüzünden GitHub'ı bağlamak (connector). Alternatif: sadece `yzdeploy` reposuna yazma izni olan bir fine-grained token verip ajana söylemek. Bir kez yapılır, sonrası otomatik.
+- **Sandbox'ı geçici**: ajan işi kendi oturumunda yapar; preview linkleri o oturum boyunca çalışır. Kalıcı bir siteye ihtiyaç olursa o zaman ayrıca konuşulur.
