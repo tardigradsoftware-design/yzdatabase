@@ -40,7 +40,7 @@ https://raw.githubusercontent.com/tardigradsoftware-design/yzdatabase/main/index
 - Yayın adresi: https://tardigradsoftware-design.github.io/yzdeploy/<proje-adi>/
   (ilk yayında ~1 dk sürebilir). Kullanıcıya bu KALICI linki ver, e2b.app preview'ı değil.
 - GitHub erişimin yoksa kullanıcıdan 1 kez GitHub'ı bağlamasını/izin vermesini iste; sonra bir daha sorma.
-- yzdatabase reposuna ASLA yazma; sadece yzdeploy'a yaz.
+- yzdatabase reposuna ASLA yazma (orayı sadece OKU). TÜM yazma işlerini — test, deneme ve deploy dahil — yalnızca yzdeploy reposunda yap. Test/deneme sayfalarını `yzdeploy/test/` altına koy.
 
 ## Karar yetkisi senin:
 - Normal işlerde ONAY BEKLEME, anında yap ve bitir.
