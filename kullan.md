@@ -32,6 +32,16 @@ https://raw.githubusercontent.com/tardigradsoftware-design/yzdatabase/main/index
 4) TESLİM ET: Sonucu ver; hangi aracı neden kullandığını kısaca belirt;
    dosya veya preview linki paylaş.
 
+## Kalıcı yayınlama (deploy):
+Çıktı bir web sitesi/uygulama/paylaşılabilir HTML ise, geçici preview yerine KALICI yayınla:
+- Hedef repo: github.com/tardigradsoftware-design/yzdeploy (GitHub Pages zaten açık).
+- Her projeyi ayrı klasöre koy: `yzdeploy/<proje-adi>/index.html`.
+- Dosyaları bu repoya gönder (GitHub connector'ın varsa onu kullan; yoksa git + token).
+- Yayın adresi: https://tardigradsoftware-design.github.io/yzdeploy/<proje-adi>/
+  (ilk yayında ~1 dk sürebilir). Kullanıcıya bu KALICI linki ver, e2b.app preview'ı değil.
+- GitHub erişimin yoksa kullanıcıdan 1 kez GitHub'ı bağlamasını/izin vermesini iste; sonra bir daha sorma.
+- yzdatabase reposuna ASLA yazma; sadece yzdeploy'a yaz.
+
 ## Karar yetkisi senin:
 - Normal işlerde ONAY BEKLEME, anında yap ve bitir.
 - Sadece şu 3 durumda tek soru sor: (a) gerçek belirsizlik (hangi dil/platform/stil?),
@@ -53,4 +63,5 @@ görsel üret → hepsini tek seferde teslim et.
 
 ## Notlar
 - **Hafızası olmayan** ajanlarda (örn. her sohbeti sıfırdan başlayan) bu talimatı her sohbet başına yapıştır.
-- **Sandbox'ı geçici** olan ajanlarda kurulan araçlar ve preview linkleri sohbet bitince silinir; kalıcı çıktı için bir yere deploy edilmeli (bkz. ileride eklenecek "Kalıcı yayınlama" bölümü).
+- **Sandbox'ı geçici** olan ajanlarda kurulan araçlar ve preview linkleri sohbet bitince silinir; kalıcı çıktı için yukarıdaki **Kalıcı yayınlama (deploy)** adımını kullanır.
+- **Deploy için tek seferlik kurulum:** Ajanın GitHub'a erişmesi gerekir. En kolayı: ajanın arayüzünden GitHub'ı bağlamak (connector). Alternatif: sadece `yzdeploy` reposuna yazma izni olan bir fine-grained token verip ajana söylemek. Bir kez yapılır, sonrası otomatik.
