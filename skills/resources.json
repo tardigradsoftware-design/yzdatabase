@@ -1,0 +1,267 @@
+{
+  "category": "resources",
+  "title": "Learning & Curated Resources",
+  "when_to_use": [
+    "learning how to build with LLMs",
+    "finding example apps, prompts and cookbooks"
+  ],
+  "count": 9,
+  "items": [
+    {
+      "id": "prompts-chat",
+      "name": "prompts.chat",
+      "full_name": "f/prompts.chat",
+      "category": "resources",
+      "use": "Curated collection of prompts",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "repo": "https://github.com/f/prompts.chat",
+      "homepage": "https://prompts.chat",
+      "stars": 173626,
+      "language": "HTML",
+      "license": "other",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt"
+      ],
+      "tags": [
+        "resources",
+        "html",
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "awesome-llm-apps",
+      "name": "awesome-llm-apps",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "category": "resources",
+      "use": "Collection of runnable LLM app examples",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "repo": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "homepage": "https://www.theunwindai.com",
+      "stars": 142367,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "agents",
+        "llms",
+        "python",
+        "rag"
+      ],
+      "tags": [
+        "resources",
+        "python",
+        "agents",
+        "llms",
+        "rag"
+      ],
+      "archived": false,
+      "last_push": "2026-10-18"
+    },
+    {
+      "id": "generative-ai-for-beginners",
+      "name": "generative-ai-for-beginners",
+      "full_name": "microsoft/generative-ai-for-beginners",
+      "category": "resources",
+      "use": "12-lesson generative-AI course",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "repo": "https://github.com/microsoft/generative-ai-for-beginners",
+      "homepage": null,
+      "stars": 121686,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "topics": [
+        "ai",
+        "azure",
+        "chatgpt",
+        "dall-e",
+        "generative-ai",
+        "generativeai",
+        "gpt",
+        "language-model"
+      ],
+      "tags": [
+        "resources",
+        "jupyter notebook",
+        "ai",
+        "azure",
+        "chatgpt",
+        "dall-e",
+        "generative-ai",
+        "generativeai",
+        "gpt",
+        "language-model"
+      ],
+      "archived": false,
+      "last_push": "2026-10-19"
+    },
+    {
+      "id": "llm-course",
+      "name": "llm-course",
+      "full_name": "mlabonne/llm-course",
+      "category": "resources",
+      "use": "Hands-on course to learn LLMs",
+      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "repo": "https://github.com/mlabonne/llm-course",
+      "homepage": "https://mlabonne.github.io/blog/",
+      "stars": 84449,
+      "language": null,
+      "license": "Apache-2.0",
+      "topics": [
+        "course",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "roadmap"
+      ],
+      "tags": [
+        "resources",
+        "course",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "roadmap"
+      ],
+      "archived": false,
+      "last_push": "2026-02-05"
+    },
+    {
+      "id": "openai-cookbook",
+      "name": "openai-cookbook",
+      "full_name": "openai/openai-cookbook",
+      "category": "resources",
+      "use": "Recipes for building with OpenAI",
+      "description": "Examples and guides for using the OpenAI API",
+      "repo": "https://github.com/openai/openai-cookbook",
+      "homepage": "https://cookbook.openai.com",
+      "stars": 76711,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "topics": [
+        "chatgpt",
+        "gpt-4",
+        "openai",
+        "openai-api"
+      ],
+      "tags": [
+        "resources",
+        "jupyter notebook",
+        "chatgpt",
+        "gpt-4",
+        "openai",
+        "openai-api"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "claude-cookbooks",
+      "name": "claude-cookbooks",
+      "full_name": "anthropics/claude-cookbooks",
+      "category": "resources",
+      "use": "Recipes for building with Claude",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "repo": "https://github.com/anthropics/claude-cookbooks",
+      "homepage": null,
+      "stars": 53593,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "topics": [],
+      "tags": [
+        "resources",
+        "jupyter notebook"
+      ],
+      "archived": false,
+      "last_push": "2026-10-17"
+    },
+    {
+      "id": "awesome-ai-agents",
+      "name": "awesome-ai-agents",
+      "full_name": "e2b-dev/awesome-ai-agents",
+      "category": "resources",
+      "use": "Curated list of AI agents",
+      "description": "A list of AI autonomous agents",
+      "repo": "https://github.com/e2b-dev/awesome-ai-agents",
+      "homepage": "https://docs.e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=awesome-ai-agents",
+      "stars": 30533,
+      "language": null,
+      "license": "other",
+      "topics": [
+        "agent",
+        "ai",
+        "artificial-intelligence",
+        "autogpt",
+        "autonomous-agents",
+        "awesome",
+        "babyagi",
+        "copilot"
+      ],
+      "tags": [
+        "resources",
+        "agent",
+        "ai",
+        "artificial-intelligence",
+        "autogpt",
+        "autonomous-agents",
+        "awesome",
+        "babyagi",
+        "copilot"
+      ],
+      "archived": false,
+      "last_push": "2026-08-21"
+    },
+    {
+      "id": "awesome-llm",
+      "name": "Awesome-LLM",
+      "full_name": "Hannibal046/Awesome-LLM",
+      "category": "resources",
+      "use": "Curated list of LLM papers and tools",
+      "description": "Awesome-LLM: a curated list of Large Language Model",
+      "repo": "https://github.com/Hannibal046/Awesome-LLM",
+      "homepage": null,
+      "stars": 27443,
+      "language": null,
+      "license": "CC0-1.0",
+      "topics": [],
+      "tags": [
+        "resources"
+      ],
+      "archived": false,
+      "last_push": "2025-07-31"
+    },
+    {
+      "id": "courses",
+      "name": "courses",
+      "full_name": "anthropics/courses",
+      "category": "resources",
+      "use": "Educational courses from Anthropic",
+      "description": "Anthropic's educational courses",
+      "repo": "https://github.com/anthropics/courses",
+      "homepage": null,
+      "stars": 22901,
+      "language": "Jupyter Notebook",
+      "license": "other",
+      "topics": [],
+      "tags": [
+        "resources",
+        "jupyter notebook"
+      ],
+      "archived": true,
+      "last_push": "2026-08-28"
+    }
+  ]
+}

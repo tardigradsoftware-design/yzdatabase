@@ -1,0 +1,157 @@
+{
+  "category": "browser-automation",
+  "title": "Browser Automation",
+  "when_to_use": [
+    "controlling a real browser",
+    "automating web UI workflows, forms and clicks"
+  ],
+  "count": 4,
+  "items": [
+    {
+      "id": "browser-use",
+      "name": "browser-use",
+      "full_name": "browser-use/browser-use",
+      "category": "browser-automation",
+      "use": "Let an LLM control a real browser",
+      "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "repo": "https://github.com/browser-use/browser-use",
+      "homepage": "https://browser-use.com",
+      "stars": 118605,
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "ai-agents",
+        "ai-tools",
+        "browser-agent",
+        "browser-automation",
+        "browser-use",
+        "cdp",
+        "cloud-browser",
+        "computer-use"
+      ],
+      "tags": [
+        "browser-automation",
+        "python",
+        "ai-agents",
+        "ai-tools",
+        "browser-agent",
+        "browser-use",
+        "cdp",
+        "cloud-browser",
+        "computer-use"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "playwright",
+      "name": "playwright",
+      "full_name": "microsoft/playwright",
+      "category": "browser-automation",
+      "use": "Reliable cross-browser automation",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+      "repo": "https://github.com/microsoft/playwright",
+      "homepage": "https://playwright.dev",
+      "stars": 98134,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "topics": [
+        "automation",
+        "chrome",
+        "chromium",
+        "e2e-testing",
+        "electron",
+        "end-to-end-testing",
+        "firefox",
+        "javascript"
+      ],
+      "tags": [
+        "browser-automation",
+        "typescript",
+        "automation",
+        "chrome",
+        "chromium",
+        "e2e-testing",
+        "electron",
+        "end-to-end-testing",
+        "firefox",
+        "javascript"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "puppeteer",
+      "name": "puppeteer",
+      "full_name": "puppeteer/puppeteer",
+      "category": "browser-automation",
+      "use": "Headless Chrome automation for Node",
+      "description": "JavaScript API for Chrome and Firefox",
+      "repo": "https://github.com/puppeteer/puppeteer",
+      "homepage": "https://pptr.dev",
+      "stars": 95729,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "topics": [
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox",
+        "headless-chrome",
+        "node-module",
+        "testing"
+      ],
+      "tags": [
+        "browser-automation",
+        "typescript",
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox",
+        "headless-chrome",
+        "node-module",
+        "testing"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "skyvern",
+      "name": "skyvern",
+      "full_name": "Skyvern-AI/skyvern",
+      "category": "browser-automation",
+      "use": "Automate browser workflows with LLMs + vision",
+      "description": "Automate browser based workflows with AI",
+      "repo": "https://github.com/Skyvern-AI/skyvern",
+      "homepage": "https://www.skyvern.com",
+      "stars": 23233,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "ai",
+        "api",
+        "automation",
+        "browser",
+        "browser-automation",
+        "computer",
+        "gpt",
+        "llm"
+      ],
+      "tags": [
+        "browser-automation",
+        "python",
+        "ai",
+        "api",
+        "automation",
+        "browser",
+        "computer",
+        "gpt",
+        "llm"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "category": "fine-tuning",
+  "title": "Fine-tuning & Training",
+  "when_to_use": [
+    "adapting a model to your own data",
+    "LoRA / QLoRA training",
+    "RLHF / DPO alignment"
+  ],
+  "count": 7,
+  "items": [
+    {
+      "id": "transformers",
+      "name": "transformers",
+      "full_name": "huggingface/transformers",
+      "category": "fine-tuning",
+      "use": "State-of-the-art models and training",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "repo": "https://github.com/huggingface/transformers",
+      "homepage": "https://huggingface.co/transformers",
+      "stars": 167894,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning"
+      ],
+      "tags": [
+        "fine-tuning",
+        "python",
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "unsloth",
+      "name": "unsloth",
+      "full_name": "unslothai/unsloth",
+      "category": "fine-tuning",
+      "use": "Faster, lower-VRAM LLM fine-tuning",
+      "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
+      "repo": "https://github.com/unslothai/unsloth",
+      "homepage": "https://unsloth.ai/docs",
+      "stars": 78300,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "agent",
+        "ai",
+        "chatgpt",
+        "deepseek",
+        "fine-tuning",
+        "gemma",
+        "image-generation",
+        "llama"
+      ],
+      "tags": [
+        "fine-tuning",
+        "python",
+        "agent",
+        "ai",
+        "chatgpt",
+        "deepseek",
+        "gemma",
+        "image-generation",
+        "llama"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "llamafactory",
+      "name": "LlamaFactory",
+      "full_name": "hiyouga/LlamaFactory",
+      "category": "fine-tuning",
+      "use": "Unified fine-tuning for 100+ LLMs",
+      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "repo": "https://github.com/hiyouga/LlamaFactory",
+      "homepage": "https://llamafactory.readthedocs.io",
+      "stars": 75601,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "agent",
+        "ai",
+        "deepseek",
+        "fine-tuning",
+        "gemma",
+        "gpt",
+        "instruction-tuning",
+        "large-language-models"
+      ],
+      "tags": [
+        "fine-tuning",
+        "python",
+        "agent",
+        "ai",
+        "deepseek",
+        "gemma",
+        "gpt",
+        "instruction-tuning",
+        "large-language-models"
+      ],
+      "archived": false,
+      "last_push": "2026-10-19"
+    },
+    {
+      "id": "deepspeed",
+      "name": "DeepSpeed",
+      "full_name": "deepspeedai/DeepSpeed",
+      "category": "fine-tuning",
+      "use": "Large-scale training and inference optimization",
+      "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+      "repo": "https://github.com/deepspeedai/DeepSpeed",
+      "homepage": "https://www.deepspeed.ai/",
+      "stars": 43246,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "billion-parameters",
+        "compression",
+        "data-parallelism",
+        "deep-learning",
+        "gpu",
+        "inference",
+        "machine-learning",
+        "mixture-of-experts"
+      ],
+      "tags": [
+        "fine-tuning",
+        "python",
+        "billion-parameters",
+        "compression",
+        "data-parallelism",
+        "deep-learning",
+        "gpu",
+        "inference",
+        "machine-learning",
+        "mixture-of-experts"
+      ],
+      "archived": false,
+      "last_push": "2026-10-19"
+    },
+    {
+      "id": "peft",
+      "name": "peft",
+      "full_name": "huggingface/peft",
+      "category": "fine-tuning",
+      "use": "Parameter-efficient fine-tuning (LoRA/QLoRA)",
+      "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
+      "repo": "https://github.com/huggingface/peft",
+      "homepage": "https://huggingface.co/docs/peft",
+      "stars": 21811,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "adapter",
+        "diffusion",
+        "fine-tuning",
+        "llm",
+        "lora",
+        "parameter-efficient-learning",
+        "peft",
+        "python"
+      ],
+      "tags": [
+        "fine-tuning",
+        "python",
+        "adapter",
+        "diffusion",
+        "llm",
+        "lora",
+        "parameter-efficient-learning",
+        "peft"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "trl",
+      "name": "trl",
+      "full_name": "huggingface/trl",
+      "category": "fine-tuning",
+      "use": "SFT, DPO and RLHF training",
+      "description": "Train transformer language models with reinforcement learning.",
+      "repo": "https://github.com/huggingface/trl",
+      "homepage": "http://hf.co/docs/trl",
+      "stars": 19557,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [],
+      "tags": [
+        "fine-tuning",
+        "python"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "axolotl",
+      "name": "axolotl",
+      "full_name": "axolotl-ai-cloud/axolotl",
+      "category": "fine-tuning",
+      "use": "Streamlined LLM fine-tuning",
+      "description": "Go ahead and axolotl questions",
+      "repo": "https://github.com/axolotl-ai-cloud/axolotl",
+      "homepage": "https://docs.axolotl.ai",
+      "stars": 12592,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "fine-tuning",
+        "llm"
+      ],
+      "tags": [
+        "fine-tuning",
+        "python",
+        "llm"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    }
+  ]
+}

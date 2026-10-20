@@ -1,0 +1,239 @@
+{
+  "category": "observability-eval",
+  "title": "Observability & Evaluation",
+  "when_to_use": [
+    "tracing and debugging LLM calls",
+    "measuring output quality",
+    "testing prompts and RAG"
+  ],
+  "count": 7,
+  "items": [
+    {
+      "id": "langfuse",
+      "name": "langfuse",
+      "full_name": "langfuse/langfuse",
+      "category": "observability-eval",
+      "use": "LLM observability, tracing and metrics",
+      "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+      "repo": "https://github.com/langfuse/langfuse",
+      "homepage": "https://langfuse.com",
+      "stars": 36073,
+      "language": "TypeScript",
+      "license": "other",
+      "topics": [
+        "analytics",
+        "autogen",
+        "evaluation",
+        "langchain",
+        "large-language-models",
+        "llama-index",
+        "llm",
+        "llm-evaluation"
+      ],
+      "tags": [
+        "observability-eval",
+        "typescript",
+        "analytics",
+        "autogen",
+        "evaluation",
+        "langchain",
+        "large-language-models",
+        "llama-index",
+        "llm",
+        "llm-evaluation"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "opik",
+      "name": "opik",
+      "full_name": "comet-ml/opik",
+      "category": "observability-eval",
+      "use": "Trace, evaluate and monitor LLM apps",
+      "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+      "repo": "https://github.com/comet-ml/opik",
+      "homepage": "https://www.comet.com/docs/opik/",
+      "stars": 22765,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "evaluation",
+        "hacktoberfest",
+        "hacktoberfest2025",
+        "langchain",
+        "llama-index",
+        "llm",
+        "llm-evaluation",
+        "llm-observability"
+      ],
+      "tags": [
+        "observability-eval",
+        "python",
+        "evaluation",
+        "hacktoberfest",
+        "hacktoberfest2025",
+        "langchain",
+        "llama-index",
+        "llm",
+        "llm-evaluation",
+        "llm-observability"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "evals",
+      "name": "evals",
+      "full_name": "openai/evals",
+      "category": "observability-eval",
+      "use": "Framework for evaluating LLMs",
+      "description": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks.",
+      "repo": "https://github.com/openai/evals",
+      "homepage": null,
+      "stars": 19621,
+      "language": "Python",
+      "license": "other",
+      "topics": [],
+      "tags": [
+        "observability-eval",
+        "python"
+      ],
+      "archived": false,
+      "last_push": "2026-04-14"
+    },
+    {
+      "id": "deepeval",
+      "name": "deepeval",
+      "full_name": "confident-ai/deepeval",
+      "category": "observability-eval",
+      "use": "Unit-testing framework for LLM outputs",
+      "description": "The LLM Evaluation Framework",
+      "repo": "https://github.com/confident-ai/deepeval",
+      "homepage": "https://deepeval.com",
+      "stars": 18982,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "evaluation-framework",
+        "evaluation-metrics",
+        "llm-evaluation",
+        "llm-evaluation-framework",
+        "llm-evaluation-metrics",
+        "python"
+      ],
+      "tags": [
+        "observability-eval",
+        "python",
+        "evaluation-framework",
+        "evaluation-metrics",
+        "llm-evaluation",
+        "llm-evaluation-framework",
+        "llm-evaluation-metrics"
+      ],
+      "archived": false,
+      "last_push": "2026-10-19"
+    },
+    {
+      "id": "ragas",
+      "name": "ragas",
+      "full_name": "vibrantlabsai/ragas",
+      "category": "observability-eval",
+      "use": "Evaluate RAG pipelines",
+      "description": "Supercharge Your LLM Application Evaluations 🚀",
+      "repo": "https://github.com/vibrantlabsai/ragas",
+      "homepage": "https://docs.ragas.io",
+      "stars": 16085,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "evaluation",
+        "llm",
+        "llmops"
+      ],
+      "tags": [
+        "observability-eval",
+        "python",
+        "evaluation",
+        "llm",
+        "llmops"
+      ],
+      "archived": false,
+      "last_push": "2026-02-24"
+    },
+    {
+      "id": "phoenix",
+      "name": "phoenix",
+      "full_name": "Arize-ai/phoenix",
+      "category": "observability-eval",
+      "use": "LLM/ML observability and evaluation",
+      "description": "AI Observability & Evaluation",
+      "repo": "https://github.com/Arize-ai/phoenix",
+      "homepage": "https://arize.com/docs/phoenix",
+      "stars": 11916,
+      "language": "Python",
+      "license": "other",
+      "topics": [
+        "agents",
+        "ai-monitoring",
+        "ai-observability",
+        "aiengineering",
+        "anthropic",
+        "datasets",
+        "evals",
+        "langchain"
+      ],
+      "tags": [
+        "observability-eval",
+        "python",
+        "agents",
+        "ai-monitoring",
+        "ai-observability",
+        "aiengineering",
+        "anthropic",
+        "datasets",
+        "evals",
+        "langchain"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "openllmetry",
+      "name": "openllmetry",
+      "full_name": "traceloop/openllmetry",
+      "category": "observability-eval",
+      "use": "OpenTelemetry instrumentation for LLM apps",
+      "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+      "repo": "https://github.com/traceloop/openllmetry",
+      "homepage": "https://www.traceloop.com/openllmetry",
+      "stars": 7501,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "artifical-intelligence",
+        "datascience",
+        "generative-ai",
+        "good-first-issue",
+        "good-first-issues",
+        "help-wanted",
+        "llm",
+        "llmops"
+      ],
+      "tags": [
+        "observability-eval",
+        "python",
+        "artifical-intelligence",
+        "datascience",
+        "generative-ai",
+        "good-first-issue",
+        "good-first-issues",
+        "help-wanted",
+        "llm",
+        "llmops"
+      ],
+      "archived": false,
+      "last_push": "2026-10-19"
+    }
+  ]
+}

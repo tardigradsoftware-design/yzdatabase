@@ -1,0 +1,205 @@
+{
+  "category": "vision-multimodal",
+  "title": "Vision & Multimodal",
+  "when_to_use": [
+    "detecting or segmenting objects in images",
+    "image-text understanding",
+    "visual OCR"
+  ],
+  "count": 6,
+  "items": [
+    {
+      "id": "ultralytics",
+      "name": "ultralytics",
+      "full_name": "ultralytics/ultralytics",
+      "category": "vision-multimodal",
+      "use": "YOLO object detection and segmentation",
+      "description": "Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
+      "repo": "https://github.com/ultralytics/ultralytics",
+      "homepage": "https://platform.ultralytics.com",
+      "stars": 62665,
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "topics": [
+        "computer-vision",
+        "deep-learning",
+        "image-classification",
+        "instance-segmentation",
+        "machine-learning",
+        "object-detection",
+        "object-tracking",
+        "pose-estimation"
+      ],
+      "tags": [
+        "vision-multimodal",
+        "python",
+        "computer-vision",
+        "deep-learning",
+        "image-classification",
+        "instance-segmentation",
+        "machine-learning",
+        "object-detection",
+        "object-tracking",
+        "pose-estimation"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "segment-anything",
+      "name": "segment-anything",
+      "full_name": "facebookresearch/segment-anything",
+      "category": "vision-multimodal",
+      "use": "Segment any object in an image",
+      "description": "The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+      "repo": "https://github.com/facebookresearch/segment-anything",
+      "homepage": null,
+      "stars": 55039,
+      "language": "Jupyter Notebook",
+      "license": "Apache-2.0",
+      "topics": [],
+      "tags": [
+        "vision-multimodal",
+        "jupyter notebook"
+      ],
+      "archived": false,
+      "last_push": "2024-09-18"
+    },
+    {
+      "id": "supervision",
+      "name": "supervision",
+      "full_name": "roboflow/supervision",
+      "category": "vision-multimodal",
+      "use": "Reusable computer-vision tooling",
+      "description": "We write your reusable computer vision tools. 💜",
+      "repo": "https://github.com/roboflow/supervision",
+      "homepage": "https://supervision.roboflow.com",
+      "stars": 51256,
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "classification",
+        "coco",
+        "computer-vision",
+        "deep-learning",
+        "hacktoberfest",
+        "image-processing",
+        "instance-segmentation",
+        "low-code"
+      ],
+      "tags": [
+        "vision-multimodal",
+        "python",
+        "classification",
+        "coco",
+        "computer-vision",
+        "deep-learning",
+        "hacktoberfest",
+        "image-processing",
+        "instance-segmentation",
+        "low-code"
+      ],
+      "archived": false,
+      "last_push": "2026-10-19"
+    },
+    {
+      "id": "clip",
+      "name": "CLIP",
+      "full_name": "openai/CLIP",
+      "category": "vision-multimodal",
+      "use": "Image-text embeddings",
+      "description": "CLIP (Contrastive Language-Image Pretraining),  Predict the most relevant text snippet given an image",
+      "repo": "https://github.com/openai/CLIP",
+      "homepage": null,
+      "stars": 34496,
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "topics": [
+        "deep-learning",
+        "machine-learning"
+      ],
+      "tags": [
+        "vision-multimodal",
+        "jupyter notebook",
+        "deep-learning",
+        "machine-learning"
+      ],
+      "archived": false,
+      "last_push": "2026-03-25"
+    },
+    {
+      "id": "llava",
+      "name": "LLaVA",
+      "full_name": "haotian-liu/LLaVA",
+      "category": "vision-multimodal",
+      "use": "Large language-and-vision assistant",
+      "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
+      "repo": "https://github.com/haotian-liu/LLaVA",
+      "homepage": "https://llava.hliu.cc",
+      "stars": 25074,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "chatbot",
+        "chatgpt",
+        "foundation-models",
+        "gpt-4",
+        "instruction-tuning",
+        "llama",
+        "llama-2",
+        "llama2"
+      ],
+      "tags": [
+        "vision-multimodal",
+        "python",
+        "chatbot",
+        "chatgpt",
+        "foundation-models",
+        "gpt-4",
+        "instruction-tuning",
+        "llama",
+        "llama-2",
+        "llama2"
+      ],
+      "archived": false,
+      "last_push": "2024-08-12"
+    },
+    {
+      "id": "grounded-segment-anything",
+      "name": "Grounded-Segment-Anything",
+      "full_name": "IDEA-Research/Grounded-Segment-Anything",
+      "category": "vision-multimodal",
+      "use": "Detect and segment objects by text prompt",
+      "description": "Grounded SAM: Marrying Grounding DINO with Segment Anything & Stable Diffusion & Recognize Anything - Automatically Detect , Segment and Generate Anything",
+      "repo": "https://github.com/IDEA-Research/Grounded-Segment-Anything",
+      "homepage": "https://arxiv.org/abs/2401.14159",
+      "stars": 17775,
+      "language": "Jupyter Notebook",
+      "license": "Apache-2.0",
+      "topics": [
+        "3d-whole-body-pose-estimation",
+        "automatic-labeling-system",
+        "caption",
+        "data-generation",
+        "image-editing",
+        "open-vocabulary-detection",
+        "open-vocabulary-segmentation",
+        "speech"
+      ],
+      "tags": [
+        "vision-multimodal",
+        "jupyter notebook",
+        "3d-whole-body-pose-estimation",
+        "automatic-labeling-system",
+        "caption",
+        "data-generation",
+        "image-editing",
+        "open-vocabulary-detection",
+        "open-vocabulary-segmentation",
+        "speech"
+      ],
+      "archived": false,
+      "last_push": "2024-09-05"
+    }
+  ]
+}

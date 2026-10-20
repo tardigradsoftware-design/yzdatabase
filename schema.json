@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "yzdatabase entry",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "use",
+    "repo",
+    "stars"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique slug for the entry"
+    },
+    "name": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string",
+      "description": "GitHub owner/repo"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "agent-frameworks",
+        "mcp",
+        "orchestration",
+        "rag-retrieval",
+        "vector-db",
+        "memory",
+        "web-search-scraping",
+        "browser-automation",
+        "coding-agents",
+        "local-inference",
+        "fine-tuning",
+        "observability-eval",
+        "speech",
+        "vision-multimodal",
+        "document-processing",
+        "ui-frontend",
+        "resources"
+      ]
+    },
+    "use": {
+      "type": "string",
+      "description": "Short phrase: what job this is used for"
+    },
+    "description": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Upstream GitHub description"
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri"
+    },
+    "homepage": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "stars": {
+      "type": "integer",
+      "description": "GitHub stargazers at generation time"
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "category + language + topics, for matching"
+    },
+    "archived": {
+      "type": "boolean"
+    },
+    "last_push": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

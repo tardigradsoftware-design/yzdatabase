@@ -1,0 +1,162 @@
+{
+  "category": "mcp",
+  "title": "Model Context Protocol (MCP)",
+  "when_to_use": [
+    "connecting tools or data to an LLM over a standard protocol",
+    "adding new capabilities to an MCP client (e.g. Claude)"
+  ],
+  "count": 6,
+  "items": [
+    {
+      "id": "awesome-mcp-servers",
+      "name": "awesome-mcp-servers",
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "category": "mcp",
+      "use": "Curated catalog of MCP servers",
+      "description": "A collection of MCP servers.",
+      "repo": "https://github.com/punkpeye/awesome-mcp-servers",
+      "homepage": "https://glama.ai/mcp/servers",
+      "stars": 96647,
+      "language": null,
+      "license": "MIT",
+      "topics": [
+        "ai",
+        "mcp"
+      ],
+      "tags": [
+        "mcp",
+        "ai"
+      ],
+      "archived": false,
+      "last_push": "2026-10-18"
+    },
+    {
+      "id": "servers",
+      "name": "servers",
+      "full_name": "modelcontextprotocol/servers",
+      "category": "mcp",
+      "use": "Reference MCP servers (files, git, fetch, etc.)",
+      "description": "Model Context Protocol Servers",
+      "repo": "https://github.com/modelcontextprotocol/servers",
+      "homepage": "https://modelcontextprotocol.io",
+      "stars": 91400,
+      "language": "TypeScript",
+      "license": "other",
+      "topics": [],
+      "tags": [
+        "mcp",
+        "typescript"
+      ],
+      "archived": false,
+      "last_push": "2026-10-19"
+    },
+    {
+      "id": "goose",
+      "name": "goose",
+      "full_name": "aaif-goose/goose",
+      "category": "mcp",
+      "use": "Local AI agent that uses MCP extensions",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "repo": "https://github.com/aaif-goose/goose",
+      "homepage": "https://goose-docs.ai/",
+      "stars": 55458,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "topics": [
+        "acp",
+        "ai",
+        "ai-agents",
+        "mcp"
+      ],
+      "tags": [
+        "mcp",
+        "rust",
+        "acp",
+        "ai",
+        "ai-agents"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "github-mcp-server",
+      "name": "github-mcp-server",
+      "full_name": "github/github-mcp-server",
+      "category": "mcp",
+      "use": "Official GitHub MCP server",
+      "description": "GitHub's official MCP Server",
+      "repo": "https://github.com/github/github-mcp-server",
+      "homepage": null,
+      "stars": 33784,
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "github",
+        "mcp",
+        "mcp-server"
+      ],
+      "tags": [
+        "mcp",
+        "go",
+        "github",
+        "mcp-server"
+      ],
+      "archived": false,
+      "last_push": "2026-10-19"
+    },
+    {
+      "id": "python-sdk",
+      "name": "python-sdk",
+      "full_name": "modelcontextprotocol/python-sdk",
+      "category": "mcp",
+      "use": "Build MCP servers and clients in Python",
+      "description": "The official Python SDK for Model Context Protocol servers and clients",
+      "repo": "https://github.com/modelcontextprotocol/python-sdk",
+      "homepage": "https://py.sdk.modelcontextprotocol.io/",
+      "stars": 24624,
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "python"
+      ],
+      "tags": [
+        "mcp",
+        "python",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "archived": false,
+      "last_push": "2026-10-17"
+    },
+    {
+      "id": "typescript-sdk",
+      "name": "typescript-sdk",
+      "full_name": "modelcontextprotocol/typescript-sdk",
+      "category": "mcp",
+      "use": "Build MCP servers and clients in TypeScript",
+      "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+      "repo": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "homepage": "https://ts.sdk.modelcontextprotocol.io/v2",
+      "stars": 13620,
+      "language": "TypeScript",
+      "license": "other",
+      "topics": [
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "typescript"
+      ],
+      "tags": [
+        "mcp",
+        "typescript",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    }
+  ]
+}

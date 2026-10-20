@@ -1,0 +1,76 @@
+{
+  "category": "memory",
+  "title": "Agent Memory",
+  "when_to_use": [
+    "giving an agent long-term memory",
+    "remembering user facts across sessions"
+  ],
+  "count": 2,
+  "items": [
+    {
+      "id": "mem0",
+      "name": "mem0",
+      "full_name": "mem0ai/mem0",
+      "category": "memory",
+      "use": "Long-term memory layer for AI agents",
+      "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+      "repo": "https://github.com/mem0ai/mem0",
+      "homepage": "https://mem0.ai",
+      "stars": 67504,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "agentic-memory",
+        "agentic-memory-system",
+        "agents",
+        "ai",
+        "ai-agents",
+        "chatgpt",
+        "genai",
+        "llm"
+      ],
+      "tags": [
+        "memory",
+        "python",
+        "agentic-memory",
+        "agentic-memory-system",
+        "agents",
+        "ai",
+        "ai-agents",
+        "chatgpt",
+        "genai",
+        "llm"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "letta",
+      "name": "letta",
+      "full_name": "letta-ai/letta",
+      "category": "memory",
+      "use": "Stateful agents with persistent memory (ex-MemGPT)",
+      "description": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "repo": "https://github.com/letta-ai/letta",
+      "homepage": "https://docs.letta.com/",
+      "stars": 25201,
+      "language": null,
+      "license": "Apache-2.0",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "llm",
+        "llm-agent"
+      ],
+      "tags": [
+        "memory",
+        "ai",
+        "ai-agents",
+        "llm",
+        "llm-agent"
+      ],
+      "archived": false,
+      "last_push": "2026-10-18"
+    }
+  ]
+}

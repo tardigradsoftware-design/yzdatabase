@@ -1,0 +1,266 @@
+{
+  "category": "vector-db",
+  "title": "Vector Databases",
+  "when_to_use": [
+    "storing and searching embeddings",
+    "semantic / similarity search",
+    "powering a RAG backend"
+  ],
+  "count": 8,
+  "items": [
+    {
+      "id": "milvus",
+      "name": "milvus",
+      "full_name": "milvus-io/milvus",
+      "category": "vector-db",
+      "use": "Scalable cloud-native vector database",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "repo": "https://github.com/milvus-io/milvus",
+      "homepage": "https://milvus.io",
+      "stars": 46442,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "topics": [
+        "anns",
+        "cloud-native",
+        "diskann",
+        "distributed",
+        "embedding-database",
+        "embedding-similarity",
+        "embedding-store",
+        "faiss"
+      ],
+      "tags": [
+        "vector-db",
+        "go",
+        "anns",
+        "cloud-native",
+        "diskann",
+        "distributed",
+        "embedding-database",
+        "embedding-similarity",
+        "embedding-store",
+        "faiss"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "faiss",
+      "name": "faiss",
+      "full_name": "facebookresearch/faiss",
+      "category": "vector-db",
+      "use": "Library for efficient similarity search",
+      "description": "A library for efficient similarity search and clustering of dense vectors.",
+      "repo": "https://github.com/facebookresearch/faiss",
+      "homepage": "https://faiss.ai",
+      "stars": 41172,
+      "language": "C++",
+      "license": "MIT",
+      "topics": [],
+      "tags": [
+        "vector-db",
+        "c++"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "qdrant",
+      "name": "qdrant",
+      "full_name": "qdrant/qdrant",
+      "category": "vector-db",
+      "use": "High-performance vector database",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+      "repo": "https://github.com/qdrant/qdrant",
+      "homepage": "https://qdrant.tech",
+      "stars": 35152,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "topics": [
+        "ai-search",
+        "ai-search-engine",
+        "embeddings-similarity",
+        "hnsw",
+        "hybrid-search",
+        "image-search",
+        "knn-algorithm",
+        "machine-learning"
+      ],
+      "tags": [
+        "vector-db",
+        "rust",
+        "ai-search",
+        "ai-search-engine",
+        "embeddings-similarity",
+        "hnsw",
+        "hybrid-search",
+        "image-search",
+        "knn-algorithm",
+        "machine-learning"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "chroma",
+      "name": "chroma",
+      "full_name": "chroma-core/chroma",
+      "category": "vector-db",
+      "use": "Embedding database for AI apps",
+      "description": "Search infrastructure for AI",
+      "repo": "https://github.com/chroma-core/chroma",
+      "homepage": "https://www.trychroma.com/",
+      "stars": 29538,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "database",
+        "rust",
+        "rust-lang"
+      ],
+      "tags": [
+        "vector-db",
+        "rust",
+        "agents",
+        "ai",
+        "ai-agents",
+        "database",
+        "rust-lang"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "pgvector",
+      "name": "pgvector",
+      "full_name": "pgvector/pgvector",
+      "category": "vector-db",
+      "use": "Vector similarity search inside Postgres",
+      "description": "Open-source vector similarity search for Postgres",
+      "repo": "https://github.com/pgvector/pgvector",
+      "homepage": null,
+      "stars": 23419,
+      "language": "C",
+      "license": "other",
+      "topics": [
+        "approximate-nearest-neighbor-search",
+        "nearest-neighbor-search"
+      ],
+      "tags": [
+        "vector-db",
+        "c",
+        "approximate-nearest-neighbor-search",
+        "nearest-neighbor-search"
+      ],
+      "archived": false,
+      "last_push": "2026-10-18"
+    },
+    {
+      "id": "weaviate",
+      "name": "weaviate",
+      "full_name": "weaviate/weaviate",
+      "category": "vector-db",
+      "use": "Vector database with hybrid search",
+      "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+      "repo": "https://github.com/weaviate/weaviate",
+      "homepage": "https://weaviate.io/developers/weaviate/",
+      "stars": 16893,
+      "language": "Go",
+      "license": "other",
+      "topics": [
+        "approximate-nearest-neighbor-search",
+        "generative-search",
+        "grpc",
+        "hnsw",
+        "hybrid-search",
+        "image-search",
+        "information-retrieval",
+        "mlops"
+      ],
+      "tags": [
+        "vector-db",
+        "go",
+        "approximate-nearest-neighbor-search",
+        "generative-search",
+        "grpc",
+        "hnsw",
+        "hybrid-search",
+        "image-search",
+        "information-retrieval",
+        "mlops"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "lancedb",
+      "name": "lancedb",
+      "full_name": "lancedb/lancedb",
+      "category": "vector-db",
+      "use": "Serverless vector database for AI",
+      "description": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
+      "repo": "https://github.com/lancedb/lancedb",
+      "homepage": "https://lancedb.com/docs",
+      "stars": 11711,
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "topics": [
+        "approximate-nearest-neighbor-search",
+        "image-search",
+        "nearest-neighbor-search",
+        "recommender-system",
+        "search-engine",
+        "semantic-search",
+        "similarity-search",
+        "vector-database"
+      ],
+      "tags": [
+        "vector-db",
+        "rust",
+        "approximate-nearest-neighbor-search",
+        "image-search",
+        "nearest-neighbor-search",
+        "recommender-system",
+        "search-engine",
+        "semantic-search",
+        "similarity-search",
+        "vector-database"
+      ],
+      "archived": false,
+      "last_push": "2026-10-20"
+    },
+    {
+      "id": "marqo",
+      "name": "marqo",
+      "full_name": "marqo-ai/marqo",
+      "category": "vector-db",
+      "use": "End-to-end vector search engine",
+      "description": "Ecommerce Search and Discovery - marqo.ai",
+      "repo": "https://github.com/marqo-ai/marqo",
+      "homepage": "https://www.marqo.ai/",
+      "stars": 5028,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [
+        "ecommerce",
+        "machine-learning",
+        "multi-modal",
+        "search-engine"
+      ],
+      "tags": [
+        "vector-db",
+        "python",
+        "ecommerce",
+        "machine-learning",
+        "multi-modal",
+        "search-engine"
+      ],
+      "archived": false,
+      "last_push": "2026-09-03"
+    }
+  ]
+}
